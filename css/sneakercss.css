@@ -1,0 +1,90 @@
+#barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2c2b2b;
+}
+
+.extra {
+    background-color: #f1f1f1;
+
+}
+
+#legend {
+    font-size: 200%;
+}
+
+#mensagem {
+    font-size: 100%;
+}
+
+table,
+th {
+    border: 1px solid black;
+
+    border-collapse: collapse;
+}
+
+th {
+    border-color: black;
+    padding: 16px 16px 16px 16px;
+}
+
+th {
+    text-align: left;
+}
+
+#barra2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+    overflow: hidden;
+}
+
+#telao {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgs {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.img_tenis {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 50%;
+}
